@@ -1,0 +1,16 @@
+
+.files-dropzone{
+    height: 12rem;
+    min-width: 25rem;
+    cursor: pointer;
+    border: #343436 solid 1px;
+    border-radius: 3px;
+    background-color: #0b0c0e;
+    text-align: center;
+}
+
+#textarea {
+    background-color: #0b0c0e;
+    height: 100%;
+    width: 100%;
+}

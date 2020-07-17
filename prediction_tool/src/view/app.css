@@ -1,0 +1,91 @@
+*{
+  color: #d8d9da;
+}
+
+body{
+  background-color: #161719;
+}
+#root{
+  margin-bottom: 5%;
+}
+#chart{
+ width: 100%;
+}
+.header{
+  border-bottom-width: thick;
+  border-bottom-style: solid;
+  border-image-source: linear-gradient(90deg,#f05a28 30%,#fbca0a 99%);
+  border-image-slice: 1;
+}
+#chartNote{
+  padding: 1%;
+  /* rgb(64,64,64);*/
+  background-color: rgb(36,41,46);
+  border-radius: 0px 0px 10px 10px;
+  height: 100%;
+
+}
+ul{
+  display: flex;
+}
+#selectXaxis{
+  border-radius: 10px 10px 0px 0px ;
+  background-color: rgb(36,41,46);
+}
+#textArea{
+  height: 20em;
+}
+
+#info-btn {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+#info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(61, 69, 77);
+  color: #fff;
+  overflow:auto;
+  width: 20%;
+  padding: 1%;
+  line-height: 1.5;
+}
+
+#closeBtn {
+  position: center;
+}
+
+#bugs {
+  position: center;
+  margin-top: 500px;
+}
+
+#footer{
+  background-color: rgb(61, 69, 77);
+  color: white;
+  font-size: 0.8em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#copyright{
+  float: right;
+  margin-right: 10px;
+}
+
+#footerText {
+  margin-left: 0%;
+}
+
+#footer p{
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+
+

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collegamento fc render 1`] = `
+<DocumentFragment>
+  <div
+    style="width: 100%; border: 1pt solid white; border-radius: 3pt; min-width: 12rem; margin-top: .8rem;"
+  >
+    <p
+      style="text-align: center; border-bottom: 1pt solid white; margin: 0px; padding: 0.4rem 0px 0.4rem; font-size: 1.2rem;"
+    >
+      name
+    </p>
+    <div
+      style="display: flex; justify-content: space-evenly;"
+    >
+      <div
+        style="width: 100%;"
+      >
+        <p
+          style="text-align: center; width: 100%; margin: 0px; padding: 0.4rem 0.6rem 0.4rem; border-right: 1pt solid white; border-bottom: 1pt solid white;"
+        >
+          Predictor
+        </p>
+        <p
+          style="text-align: center; width: 100%; margin: 0px; padding: 0.2rem 0.6rem 0.2rem;"
+        >
+          x
+        </p>
+        <p
+          style="text-align: center; width: 100%; margin: 0px; padding: 0.2rem 0.6rem 0.2rem;"
+        >
+          y
+        </p>
+      </div>
+      <div
+        style="width: 100%;"
+      >
+        <p
+          style="text-align: center; width: 100%; margin: 0px; padding: 0.4rem 0.6rem 0.4rem; border-bottom: 1pt solid white;"
+        >
+          Node
+        </p>
+        <p
+          style="text-align: center; width: 100%; margin: 0px; padding: 0.2rem 0.6rem 0.2rem;"
+        >
+          cpu
+        </p>
+        <p
+          style="text-align: center; width: 100%; margin: 0px; padding: 0.2rem 0.6rem 0.2rem;"
+        >
+          gpu
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    style="display: flex; justify-content: space-evenly; width: 100%; margin: .75rem 0px .5rem;"
+  >
+    <button
+      class="css-1ihbihm-button"
+      style="margin: 0px .5rem 0px;"
+    >
+      <span
+        class="css-1beih13"
+      >
+        <span>
+          Edit
+        </span>
+      </span>
+    </button>
+    <button
+      class="css-1ihbihm-button"
+      style="margin: 0px .5rem 0px;"
+    >
+      <span
+        class="css-1beih13"
+      >
+        <span>
+          Disconnect
+        </span>
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;

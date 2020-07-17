@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form edit render 1`] = `
+<DocumentFragment>
+  <div
+    class="panel-options-group"
+  >
+    <div
+      class="panel-options-group__header"
+    >
+      <span
+        class="panel-options-group__title"
+      >
+        Edit connection
+      </span>
+    </div>
+    <div
+      class="panel-options-group__body"
+    >
+      <div
+        class="css-dj00ry"
+        style="width: 100%;"
+      >
+        <div
+          class="css-186j473"
+        >
+          <label
+            for="nome_collegamento"
+          >
+            Connection name:
+          </label>
+        </div>
+        <div
+          class="css-186j473"
+        >
+          <input
+            id="nome_collegamento"
+            placeholder="nome"
+            style="width: 100%;"
+            type="text"
+          />
+        </div>
+        <div
+          class="css-186j473"
+        >
+          <div
+            style="display: flex; justify-content: space-between; margin-top: 0.8rem;"
+          >
+            <label
+              for="y"
+              style="align-self: center;"
+            >
+              y:
+            </label>
+            <select
+              id="y"
+              style="margin: 10px;"
+            >
+              <option
+                value="xy"
+              >
+                xy
+              </option>
+              <option
+                value="yx"
+              >
+                yx
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          class="css-186j473"
+        >
+          <div
+            style="display: flex; justify-content: space-evenly;"
+          >
+            <button
+              class="css-1ihbihm-button"
+            >
+              <span
+                class="css-1beih13"
+              >
+                <span>
+                  Save
+                </span>
+              </span>
+            </button>
+            <button
+              class="css-1ihbihm-button"
+            >
+              <span
+                class="css-1beih13"
+              >
+                <span>
+                  Cancel
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

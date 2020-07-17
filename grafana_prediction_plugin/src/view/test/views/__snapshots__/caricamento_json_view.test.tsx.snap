@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`caricamento json render modify 1`] = `
+<DocumentFragment>
+  <p>
+    You can't modify something while monitoring.
+  </p>
+</DocumentFragment>
+`;
+
+exports[`caricamento json render normal 1`] = `
+<DocumentFragment>
+  <div
+    class="panel-options-grid"
+  >
+    <div
+      class="panel-options-group"
+    >
+      <div
+        class="panel-options-group__header"
+      >
+        <span
+          class="panel-options-group__title"
+        >
+          Upload the File
+        </span>
+      </div>
+      <div
+        class="panel-options-group__body"
+      >
+        <div
+          class="css-dj00ry"
+          style="width: 100%;"
+        >
+          <div
+            class="css-186j473"
+          >
+            <div>
+              <input
+                accept=".json"
+                multiple=""
+                name="file"
+                style="display: none;"
+                type="file"
+              />
+              <div
+                class="files-dropzone"
+              >
+                <p>
+                  Drop files here or click to upload
+                </p>
+                <p>
+                  File: 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="panel-options-group"
+    >
+      <div
+        class="panel-options-group__header"
+      >
+        <span
+          class="panel-options-group__title"
+        >
+          File contents
+        </span>
+      </div>
+      <div
+        class="panel-options-group__body"
+      >
+        <pre
+          id="textarea"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

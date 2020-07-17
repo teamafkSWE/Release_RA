@@ -1,0 +1,32 @@
+{
+  "name": "predire-in-grafana",
+  "version": "1.0.0",
+  "description": "Predire in Grafana Panel",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "author": "Grafana Labs",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "^7.0.4",
+    "@grafana/runtime": "^7.0.4",
+    "@grafana/toolkit": "^6.7.2",
+    "@grafana/ui": "^7.0.4",
+    "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^10.4.3",
+    "@types/react-test-renderer": "^16.9.2",
+    "jest": "^26.1.0",
+    "react-test-renderer": "^16.13.1",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.6",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "influx": "^5.5.2",
+    "react-files": "^2.4.8"
+  }
+}

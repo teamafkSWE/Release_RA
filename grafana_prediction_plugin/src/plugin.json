@@ -1,0 +1,31 @@
+{
+  "type": "panel",
+  "name": "Predire in Grafana",
+  "id": "teamafk-pg",
+  "dataFormats": [
+    "time_series"
+  ],
+  "info": {
+    "author": {
+      "name": "TeamAFK",
+      "url": "https://github.com/teamafkSWE"
+    },
+    "logos": {
+      "small": "img/logo.png",
+      "large": "img/logo.png"
+    },
+    "keywords": [
+      "afk",
+      "predire",
+      "svm",
+      "rl"
+    ],
+    "description": "?????????????",
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.6.x",
+    "plugins": []
+  }
+}
